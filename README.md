@@ -9,6 +9,6 @@ The reason why I use Struts 2 is very simple. First of all, I'm not the Java guy
 
 Thank you so much, I'd be very happy if you (i will never know you) follow my journey.
 
-
+![alt text](https://media3.giphy.com/media/10UeedrT5MIfPG/giphy.gif?cid=ecf05e470ovd5ptdmppjh48fl6zshjsujy1a8w9ctx0fqju8&rid=giphy.gif&ct=g)
 
 khimxsdj
