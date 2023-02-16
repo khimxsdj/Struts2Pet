@@ -6,10 +6,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Homepage</title>
+<style>
+.gutter {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.word-break{
+	width: 295px;
+	height: 55px;
+	overflow: hidden;
+	word-break: break-word;
+}
+.title {
+	height: 38px;
+}
+</style>
 </head>
 <body>
 	<tiles:insertDefinition name="classic">
 		<tiles:putAttribute name="main">
+			<i class="fa fa-bars"></i>
 			<!--  banner  -->
 			<div id="carouselExampleIndicators" class="carousel slide"
 				data-ride="carousel">
@@ -50,139 +66,119 @@
 				</a>
 			</div>
 			<!--  end banner -->
-			<h3 class="mt-4 ml-3">Popular posts</h3>
-			<div class="container mt-2" style="max-width:1400px">
-				<div class="row mb-3">
-					<div class="col-md">
-						<div
-							class="card media align-items-center text-center text-lg-left flex-column flex-lg-row" style="max-width: 100%">
-							<div class="mr-2">
-								<img style="object-fit: contain;"
-									src="http://static.ybox.vn/2018/7/1/1532347525369-Slide1.JPG"
-									height="135" alt="">
-							</div>
-							<div class="media-body">
-								<h6 class="media-title font-weight-semibold">
-									<a href="#" data-abc="true" style="font-size:14px;">Và rồi núi vọng</a>
+			<h3 class="my-4 ms-5">Popular posts</h3>
+			<div class="container overflow-hidden" style="max-width: 1300px">
+				<div class="row g-3">
+					<div class="col-lg-6">
+						<div class="card flex-row">
+							<img style="object-fit:cover;" height="200" width="300"
+								src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/11/25/10/occamyvisual2511.jpg?width=968"
+								alt="Card image cap">
+							<div class="card-body">
+								<h6 class="title font-weight-semibold">
+									<a href="#" data-abc="true" class="title text-decoration-none" style="font-size: 16px;">Sinh vật huyền bí và cách tìm ra chúng</a>
 								</h6>
-
-								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2" style="font-size:12px;">
+								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
+									style="font-size: 13px;">
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#tiles</a></li>
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-
-								<p class="mb-3" style="font-size:12px;">Afghanistan, mùa thu năm 1952. Abdullah và
-										Pari sống cùng cha, mẹ kế và em khác mẹ trong ngôi làng nhỏ
-										xác xơ Shadbagh</p>
-
+								<p class="fst-italic word-break mb-2" style="font-size:12px;">Some quick example text to build on the
+									card title and make up the bulk of the card's content. Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
 								<div class="d-flex align-items-center">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle align-self-start mr-2" width="25"
-										height="25"> <span style="font-size:12px;">Asmodeus Alice</span>
+										class="rounded-circle me-2" width="25"
+										height="25"> <span style="font-size: 12px;">Asmodeus
+										Alice</span>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md">
-						<div
-							class="card media align-items-center text-center text-lg-left flex-column flex-lg-row">
-							<div class="mr-2">
-								<img style="object-fit: contain;"
-									src="http://static.ybox.vn/2018/7/1/1532347525369-Slide1.JPG"
-									height="135" alt="">
-							</div>
-							<div class="media-body">
-								<h6 class="media-title font-weight-semibold">
-									<a href="#" data-abc="true" style="font-size:14px;">Và rồi núi vọng</a>
+					<div class="col-lg-6">
+						<div class="card flex-row">
+							<img style="object-fit:cover;" height="200" width="300"
+								src="https://blog.mystart.com/wp-content/uploads/shutterstock_723855517-28-scaled.jpg"
+								alt="Card image cap">
+							<div class="card-body">
+								<h6 class="title font-weight-semibold">
+									<a href="#" data-abc="true" class="text-decoration-none" style="font-size: 16px;">Anna Heartfilia và Ác quỷ vùng nông thôn </a>
 								</h6>
-
-								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2" style="font-size:12px;">
+								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
+									style="font-size: 13px;">
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#tiles</a></li>
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-
-								<p class="mb-3" style="font-size:12px;">Afghanistan, mùa thu năm 1952. Abdullah và
-										Pari sống cùng cha, mẹ kế và em khác mẹ trong ngôi làng nhỏ
-										xác xơ Shadbagh</p>
-
-								<div class="d-flex align-items-center">
+								<p class="fst-italic word-break mb-2" style="font-size:13px;">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+								<div class="d-flex align-items-center ">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle align-self-start mr-2" width="25"
-										height="25"> <span style="font-size:12px;">Asmodeus Alice</span>
+										class="rounded-circle me-2" width="25"
+										height="25"> <span style="font-size: 12px;">Asmodeus
+										Alice</span>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md">
-						<div
-							class="card media align-items-center text-center text-lg-left flex-column flex-lg-row">
-							<div class="mr-2">
-								<img style="object-fit: contain;"
-									src="http://static.ybox.vn/2018/7/1/1532347525369-Slide1.JPG"
-									height="135" alt="">
-							</div>
-							<div class="media-body">
-								<h6 class="media-title font-weight-semibold">
-									<a href="#" data-abc="true" style="font-size:14px;">Và rồi núi vọng</a>
+					<div class="col-lg-6">
+						<div class="card flex-row">
+							<img style="object-fit:cover;" height="200" width="300"
+								src="https://static01.nyt.com/images/2016/11/18/arts/18FANTASTIC/18FANTASTIC-videoSixteenByNineJumbo1600.jpg"
+								alt="Card image cap">
+							<div class="card-body">
+								<h6 class="title font-weight-semibold">
+									<a href="#" data-abc="true" class="text-decoration-none" style="font-size: 16px;">Và rồi
+										núi vọng, diều hâu kiếm mồi</a>
 								</h6>
-
-								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2" style="font-size:12px;">
+								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
+									style="font-size: 13px;">
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#tiles</a></li>
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-
-								<p class="mb-3" style="font-size:12px;">Afghanistan, mùa thu năm 1952. Abdullah và
-										Pari sống cùng cha, mẹ kế và em khác mẹ trong ngôi làng nhỏ
-										xác xơ Shadbagh</p>
-
-								<div class="d-flex align-items-center">
+								<p class="fst-italic word-break mb-2" style="font-size:13px;">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+								<div class="d-flex align-items-center ">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle align-self-start mr-2" width="25"
-										height="25"> <span style="font-size:12px;">Asmodeus Alice</span>
+										class="rounded-circle me-2" width="25"
+										height="25"> <span style="font-size: 12px;">Asmodeus
+										Alice</span>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md">
-						<div
-							class="card media align-items-center text-center text-lg-left flex-column flex-lg-row">
-							<div class="mr-2">
-								<img style="object-fit: contain;"
-									src="http://static.ybox.vn/2018/7/1/1532347525369-Slide1.JPG"
-									height="135" alt="">
-							</div>
-							<div class="media-body">
-								<h6 class="media-title font-weight-semibold">
-									<a href="#" data-abc="true" style="font-size:14px;">Và rồi núi vọng</a>
+					<div class="col-lg-6">
+						<div class="card flex-row">
+							<img style="object-fit:cover;" height="200" width="300"
+								src="https://alpha.aeon.co/images/f7cdeddb-f580-403b-b545-7694f248ff30/2700x1530.jpg"
+								alt="Card image cap">
+							<div class="card-body">
+								<h6 class="title font-weight-semibold">
+									<a href="#" data-abc="true" class="text-decoration-none" style="font-size: 16px;">Lucifer, kẻ sa ngã nơi thiên đàng</a>
 								</h6>
-
-								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2" style="font-size:12px;">
+								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
+									style="font-size: 13px;">
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#tiles</a></li>
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-
-								<p class="mb-3" style="font-size:12px;">Afghanistan, mùa thu năm 1952. Abdullah và
-										Pari sống cùng cha, mẹ kế và em khác mẹ trong ngôi làng nhỏ
-										xác xơ Shadbagh</p>
-
-								<div class="d-flex align-items-center">
+								<p class="fst-italic word-break mb-2" style="font-size:13px;">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+								<div class="d-flex align-items-center ">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle align-self-start mr-2" width="25"
-										height="25"> <span style="font-size:12px;">Asmodeus Alice</span>
+										class="rounded-circle me-2" width="25"
+										height="25"> <span style="font-size: 12px;">Asmodeus
+										Alice</span>
 								</div>
 							</div>
 						</div>
@@ -191,5 +187,6 @@
 			</div>
 		</tiles:putAttribute>
 	</tiles:insertDefinition>
+
 </body>
 </html>
