@@ -11,12 +11,14 @@
 	padding-left: 16px;
 	padding-right: 16px;
 }
-.word-break{
+
+.word-break {
 	width: 295px;
 	height: 55px;
 	overflow: hidden;
 	word-break: break-word;
 }
+
 .title {
 	height: 38px;
 }
@@ -24,6 +26,10 @@
 </head>
 <body>
 	<tiles:insertDefinition name="classic">
+		<tiles:putAttribute name="jsByPage">
+			<script
+				src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		</tiles:putAttribute>
 		<tiles:putAttribute name="main">
 			<i class="fa fa-bars"></i>
 			<!--  banner  -->
@@ -71,12 +77,14 @@
 				<div class="row g-3">
 					<div class="col-lg-6">
 						<div class="card flex-row">
-							<img style="object-fit:cover;" height="200" width="300"
+							<img style="object-fit: cover;" height="200" width="300"
 								src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/11/25/10/occamyvisual2511.jpg?width=968"
 								alt="Card image cap">
 							<div class="card-body">
 								<h6 class="title font-weight-semibold">
-									<a href="#" data-abc="true" class="title text-decoration-none" style="font-size: 16px;">Sinh vật huyền bí và cách tìm ra chúng</a>
+									<a href="#" data-abc="true" class="title text-decoration-none"
+										style="font-size: 16px;">Sinh vật huyền bí và cách tìm ra
+										chúng</a>
 								</h6>
 								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
 									style="font-size: 13px;">
@@ -85,27 +93,29 @@
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-								<p class="fst-italic word-break mb-2" style="font-size:12px;">Some quick example text to build on the
-									card title and make up the bulk of the card's content. Some quick example text to build on the
-									card title and make up the bulk of the card's content.</p>
+								<p class="fst-italic word-break mb-2" style="font-size: 12px;">Some
+									quick example text to build on the card title and make up the
+									bulk of the card's content. Some quick example text to build on
+									the card title and make up the bulk of the card's content.</p>
 								<div class="d-flex align-items-center">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle me-2" width="25"
-										height="25"> <span style="font-size: 12px;">Asmodeus
-										Alice</span>
+										class="rounded-circle me-2" width="25" height="25"> <span
+										style="font-size: 12px;">Asmodeus Alice</span>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="card flex-row">
-							<img style="object-fit:cover;" height="200" width="300"
+							<img style="object-fit: cover;" height="200" width="300"
 								src="https://blog.mystart.com/wp-content/uploads/shutterstock_723855517-28-scaled.jpg"
 								alt="Card image cap">
 							<div class="card-body">
 								<h6 class="title font-weight-semibold">
-									<a href="#" data-abc="true" class="text-decoration-none" style="font-size: 16px;">Anna Heartfilia và Ác quỷ vùng nông thôn </a>
+									<a href="#" data-abc="true" class="text-decoration-none"
+										style="font-size: 16px;">Anna Heartfilia và Ác quỷ vùng
+										nông thôn </a>
 								</h6>
 								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
 									style="font-size: 13px;">
@@ -114,27 +124,28 @@
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-								<p class="fst-italic word-break mb-2" style="font-size:13px;">Some quick example text to build on the
-									card title and make up the bulk of the card's content.</p>
+								<p class="fst-italic word-break mb-2" style="font-size: 13px;">Some
+									quick example text to build on the card title and make up the
+									bulk of the card's content.</p>
 								<div class="d-flex align-items-center ">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle me-2" width="25"
-										height="25"> <span style="font-size: 12px;">Asmodeus
-										Alice</span>
+										class="rounded-circle me-2" width="25" height="25"> <span
+										style="font-size: 12px;">Asmodeus Alice</span>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="card flex-row">
-							<img style="object-fit:cover;" height="200" width="300"
+							<img style="object-fit: cover;" height="200" width="300"
 								src="https://static01.nyt.com/images/2016/11/18/arts/18FANTASTIC/18FANTASTIC-videoSixteenByNineJumbo1600.jpg"
 								alt="Card image cap">
 							<div class="card-body">
 								<h6 class="title font-weight-semibold">
-									<a href="#" data-abc="true" class="text-decoration-none" style="font-size: 16px;">Và rồi
-										núi vọng, diều hâu kiếm mồi</a>
+									<a href="#" data-abc="true" class="text-decoration-none"
+										style="font-size: 16px;">Và rồi núi vọng, diều hâu kiếm
+										mồi</a>
 								</h6>
 								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
 									style="font-size: 13px;">
@@ -143,26 +154,27 @@
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-								<p class="fst-italic word-break mb-2" style="font-size:13px;">Some quick example text to build on the
-									card title and make up the bulk of the card's content.</p>
+								<p class="fst-italic word-break mb-2" style="font-size: 13px;">Some
+									quick example text to build on the card title and make up the
+									bulk of the card's content.</p>
 								<div class="d-flex align-items-center ">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle me-2" width="25"
-										height="25"> <span style="font-size: 12px;">Asmodeus
-										Alice</span>
+										class="rounded-circle me-2" width="25" height="25"> <span
+										style="font-size: 12px;">Asmodeus Alice</span>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="card flex-row">
-							<img style="object-fit:cover;" height="200" width="300"
+							<img style="object-fit: cover;" height="200" width="300"
 								src="https://alpha.aeon.co/images/f7cdeddb-f580-403b-b545-7694f248ff30/2700x1530.jpg"
 								alt="Card image cap">
 							<div class="card-body">
 								<h6 class="title font-weight-semibold">
-									<a href="#" data-abc="true" class="text-decoration-none" style="font-size: 16px;">Lucifer, kẻ sa ngã nơi thiên đàng</a>
+									<a href="#" data-abc="true" class="text-decoration-none"
+										style="font-size: 16px;">Lucifer, kẻ sa ngã nơi thiên đàng</a>
 								</h6>
 								<ul class="list-inline list-inline-dotted mb-3 mb-lg-2"
 									style="font-size: 13px;">
@@ -171,14 +183,14 @@
 									<li class="list-inline-item"><a href="#"
 										class="text-muted" data-abc="true">#strut2</a></li>
 								</ul>
-								<p class="fst-italic word-break mb-2" style="font-size:13px;">Some quick example text to build on the
-									card title and make up the bulk of the card's content.</p>
+								<p class="fst-italic word-break mb-2" style="font-size: 13px;">Some
+									quick example text to build on the card title and make up the
+									bulk of the card's content.</p>
 								<div class="d-flex align-items-center ">
 									<img
 										src="https://i.pinimg.com/736x/94/00/ff/9400ffb9bd98f3de96a5eaf431b92b1d.jpg"
-										class="rounded-circle me-2" width="25"
-										height="25"> <span style="font-size: 12px;">Asmodeus
-										Alice</span>
+										class="rounded-circle me-2" width="25" height="25"> <span
+										style="font-size: 12px;">Asmodeus Alice</span>
 								</div>
 							</div>
 						</div>
