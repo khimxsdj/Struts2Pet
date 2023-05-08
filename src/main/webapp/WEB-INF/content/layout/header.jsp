@@ -24,7 +24,7 @@
 							<ul class="dropdown-menu"
 								aria-labelledby="navbarDropdownMenuLink">
 								<li><a class="dropdown-item" href="<%=request.getContextPath()%>/phone-number-library">Phone Number Library</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><a class="dropdown-item" href="<%=request.getContextPath()%>/checkout">Another action</a></li>
 								<li><a class="dropdown-item" href="#">Something else
 										here</a></li>
 							</ul></li>

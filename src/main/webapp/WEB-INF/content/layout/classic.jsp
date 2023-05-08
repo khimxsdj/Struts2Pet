@@ -23,6 +23,7 @@ none;
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 <tiles:insertAttribute name="jsByPage"></tiles:insertAttribute>
+
 </head>
 <body>
 	<tiles:insertAttribute name="header"></tiles:insertAttribute>

@@ -16,5 +16,8 @@
 		<action name="phone-number-validate" class="action.features.PhoneNumberValidation">
 			<result name="success">/WEB-INF/content/features/phone_number_lib.jsp</result>
 		</action>
+		<action name="checkout" class="action.features.StripeTestAction">
+			<result name="success">/WEB-INF/content/features/stripe_test.jsp</result>
+		</action>
 	</package>
 </struts>

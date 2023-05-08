@@ -23,6 +23,16 @@
 	height: 38px;
 }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.fb-share').click(function(e) {
+        e.preventDefault();
+        window.open($(this).attr('href'), 'fbShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+        return false;
+    });
+});
+</script>
 </head>
 <body>
 	<tiles:insertDefinition name="classic">
@@ -73,6 +83,9 @@
 			</div>
 			<!--  end banner -->
 			<h3 class="my-4 ms-5">Popular posts</h3>
+			<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=Fzvi-MyHw6w">
+    Share on Facebook
+</a>
 			<div class="container overflow-hidden" style="max-width: 1300px">
 				<div class="row g-3">
 					<div class="col-lg-6">
@@ -199,6 +212,5 @@
 			</div>
 		</tiles:putAttribute>
 	</tiles:insertDefinition>
-
 </body>
 </html>
